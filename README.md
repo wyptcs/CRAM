@@ -26,11 +26,11 @@ parameters for darray based CRAM
 For test B+tree based CRAM, use following commands,<br/>
 <br/>
 To compile B+tree based CRAM,<br/>
-g++ -O3 -std=c++20 bench_replace.cpp -o test       (DEFAULT)<br/>
-g++-11 -O3 -std=c++20 bench_replace.cpp -o test    (IF GCC VERSION 11 NEEDED)<br/>
+  g++ -O3 -std=c++20 bench_replace.cpp -o test       (DEFAULT)<br/>
+  g++-11 -O3 -std=c++20 bench_replace.cpp -o test    (IF GCC VERSION 11 NEEDED)<br/>
 <br/>
 To run B+tree based CRAM,<br/>
-./test "source.txt" "dest.txt"<br/>
+  ./test "source.txt" "dest.txt"<br/>
 
 CRAM class has template arguments and parameters
 
