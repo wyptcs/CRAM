@@ -37,7 +37,7 @@ To run B+tree based CRAM,<br/>
 <br/>
 Text files should meet the following constraints.<br/>
 1. size of two files must be exactly same.<br/>
-2. size of two files must be divisible by MAX_BLOCK_SIZE(Default 1024)<br/>
+2. size of two files must be divisible by MAX_BLOCK_SIZE(Default 1024)<br/><br/>
 
 CRAM class has template arguments and parameters
 
