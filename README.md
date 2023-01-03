@@ -23,14 +23,14 @@ parameters for darray based CRAM
 0 is for CRAM, 1 and 2 is for DCRAM
 6. fixed as 2
 
-For test B+tree based CRAM, use following commands,
-
-To compile B+tree based CRAM,
-g++ -O3 -std=c++20 bench_replace.cpp -o test       (DEFAULT)
-g++-11 -O3 -std=c++20 bench_replace.cpp -o test    (IF GCC VERSION 11 NEEDED)
-
-To run B+tree based CRAM,
-./test "source.txt" "dest.txt"
+For test B+tree based CRAM, use following commands,<br/>
+<br/>
+To compile B+tree based CRAM,<br/>
+g++ -O3 -std=c++20 bench_replace.cpp -o test       (DEFAULT)<br/>
+g++-11 -O3 -std=c++20 bench_replace.cpp -o test    (IF GCC VERSION 11 NEEDED)<br/>
+<br/>
+To run B+tree based CRAM,<br/>
+./test "source.txt" "dest.txt"<br/>
 
 CRAM class has template arguments and parameters
 
